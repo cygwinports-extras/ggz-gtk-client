@@ -1,0 +1,6 @@
+category: Games Gnome
+requires: cygwin libggz-gtk1 glib2-devel gdk-pixbuf2-devel gtk2-x11-devel libX11-devel libggz-devel libggzcore-devel gettext pango-devel
+external-source: ggz-gtk-client
+sdesc: "GGZ Gaming Zone GTK+ client library (development)"
+ldesc: "GGZ Gaming Zone GTK+ core client"
+
