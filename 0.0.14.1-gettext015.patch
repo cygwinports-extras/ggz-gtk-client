@@ -1,0 +1,11 @@
+--- origsrc/ggz-gtk-client-0.0.14.1/configure.ac	2008-02-14 12:26:33.000000000 -0600
++++ src/ggz-gtk-client-0.0.14.1/configure.ac	2008-06-05 23:25:01.203125000 -0500
+@@ -58,7 +58,7 @@
+ 
+ dnl Check for NLS
+ dnl ============================================================
+-AM_WITH_NLS
++AM_NLS
+ AC_DEFINE_UNQUOTED([PACKAGE_LOCALE_DIR], ["${prefix}/share/locale"],
+                    [The location to put message catalogs])
+ 

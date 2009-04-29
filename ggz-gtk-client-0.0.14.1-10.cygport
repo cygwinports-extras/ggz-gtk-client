@@ -1,0 +1,9 @@
+inherit ggz
+
+PATCH_URI="0.0.14.1-gettext015.patch
+           0.0.14.1-no-undefined.patch"
+
+PKG_NAMES="${PN} libggz-gtk1 libggz-gtk-devel"
+ggz_gtk_client_CONTENTS="usr/bin/ggz* usr/share/"
+libggz_gtk1_CONTENTS="usr/bin/*-1.dll"
+libggz_gtk_devel_CONTENTS="usr/include/ usr/lib/"
