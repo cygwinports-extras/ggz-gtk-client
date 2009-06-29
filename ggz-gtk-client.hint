@@ -1,4 +1,4 @@
 category: Games Gnome
-requires: cygwin libgcc1 libggz2 libggzcore9 libggz-gtk1 libglib2.0_0 libgtk2.0_0 libintl8
+requires: libgcc1 libggz2 libggzcore9 libggz-gtk1 libglib2.0_0 libgtk2.0_0 libintl8
 sdesc: "GGZ Gaming Zone GTK+ core client"
 ldesc: "GGZ Gaming Zone GTK+ core client"
